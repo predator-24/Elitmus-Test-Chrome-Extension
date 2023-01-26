@@ -1,0 +1,29 @@
+.container {
+    width: 280px;
+    color: #314d3e;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    margin: .5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.check-button{
+    background-color: white;
+    color: black;
+    padding: 15px 32px;
+    margin: .5%;
+    border: 2px solid #4CAF50;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Elitmus Chrome Extension",
+    "version": "0.0.1",
+    "description": "Extension to stop people from cheating in Exams",
+    "permissions": ["storage","activeTab","tabs","webNavigation","webRequest","audioCapture","videoCapture","declarativeContent"],
+    "host_permissions": ["https://www.google.com/"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.google.com/"],
+        "js": ["contentScript.js"],
+        "css": ["popup.css"]
+      }
+    ],
+    "action": {
+      "default_title": "My YT Bookmarks",
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+}
