@@ -21,3 +21,5 @@ extensions icon on top right corner of browser.
 -  Warns if more than one tab are running while trying to start the test
 -  Check for availability of Microphone
 -  Check for availability of Camera    
+
+I am deeply appreciative to Elitmus for giving me the opportunity to embark on my first chrome extension project. This experience not only allowed me to deepen my understanding of manifest v3, but also afforded me the chance to apply my web development skills in a practical setting. I am impressed by how much I was able to learn and accomplish in just two days.
